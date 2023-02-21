@@ -1,3 +1,12 @@
+ Project Wild-Wood
+
+This project was bootstrapped with Create Next App.
+
+A project for a fictional client, information and plant sales through a platform.
+Developped by Louis Nowak for the passage of title of web and mobile web developer of September 2023.
+State-approved professional title
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
