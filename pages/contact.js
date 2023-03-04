@@ -1,8 +1,6 @@
 import Head from "next/head";
 import { Stack } from "@mui/material";
 import NavBar from "../components/NavBar";
-import Product from "../components/Product";
-import Panier from "../components/Panier";
 
 export default function Home() {
   return (
@@ -23,8 +21,6 @@ export default function Home() {
         }}
       >
         <NavBar />
-        <Product />
-        <Panier />
       </Stack>
     </>
   );

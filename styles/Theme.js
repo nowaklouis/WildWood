@@ -1,34 +1,33 @@
-import { createTheme } from '@mui/material/styles';
+import { createTheme } from "@mui/material/styles";
 
 const defaultTheme = createTheme();
 
 const theme = createTheme({
   typography: {
     h1: {
-      fontFamily: 'Didact Gothic',
-      fontWeight: '900',
-      color: '#ffffff',
-      letterSpacing: '.2rem',
-      fontSize: '4rem',
-      [defaultTheme.breakpoints.down('md')]: {
-        fontSize: '2.7rem',
+      fontFamily: "Didact Gothic",
+      fontWeight: "900",
+      color: "#ffffff",
+      letterSpacing: ".2rem",
+      fontSize: "4rem",
+      [defaultTheme.breakpoints.down("md")]: {
+        fontSize: "2.7rem",
       },
     },
   },
   palette: {
     primary: {
-      main: '#ffffff',
+      main: "#ffffff",
     },
     secondary: {
-      light: '#B8B8B8',
-      main: '#919191',
-      dark: '#6C6C6C',
+      light: "#EDF1D6",
+      main: "#9DC08B",
+      dark: "#609966",
     },
     other: {
-      main: '#008A0F',
-      red: '#B40101',
+      main: "#40513B",
+      red: "#B40101",
     },
-    /* boxShadow: "0px 5px 5px grey" */
   },
 });
 
