@@ -1,6 +1,8 @@
 import Head from "next/head";
 import { Stack } from "@mui/material";
 import NavBar from "../components/NavBar";
+import Contact from "../components/Contact";
+import Typography from "@mui/material/Typography";
 
 export default function Home() {
   return (
@@ -21,6 +23,10 @@ export default function Home() {
         }}
       >
         <NavBar />
+        <Typography variant="h3" sx={{ p: "2rem" }}>
+          Un besoin de réponses? Contacter-nous ;&#41;
+        </Typography>
+        <Contact />
       </Stack>
     </>
   );

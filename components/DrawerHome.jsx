@@ -37,6 +37,7 @@ export default function TemporaryDrawer() {
       sx={{
         width: anchor === "top" || anchor === "bottom" ? "auto" : 250,
         paddingTop: "5rem",
+        backgroundColor: "secondary.main",
       }}
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
